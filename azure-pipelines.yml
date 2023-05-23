@@ -19,6 +19,6 @@ steps:
     resourceGroupName: 'DemoBicep'
     location: 'West US 3'
     templateLocation: 'Linked artifact'
-    csmFile: 'webapp.bicep'
-    csmParametersFile: 'webapp.parameters.json'
+    csmFile: 'WebApp.bicep'
+    csmParametersFile: 'WebApp.parameters.json'
     deploymentMode: 'Incremental'
