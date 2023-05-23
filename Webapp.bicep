@@ -1,6 +1,6 @@
 param appServicePlanName string 
 
-param webAppName string
+param webAppName1 string
 
 param location string = resourceGroup().location
 
@@ -16,15 +16,15 @@ resource appServicePlan 'Microsoft.Web/serverfarms@2020-12-01' = {
 }
 
 
-resource webApplication 'Microsoft.Web/sites@2021-01-15' = {
-  name: webAppName
+resource webApplication1 'Microsoft.Web/sites@2021-01-15' = {
+  name: webAppName1
   location: location
   properties: {
     serverFarmId: appServicePlan.id
   }
 }
 
-resource webApplication 'Microsoft.Web/sites@2021-01-15' = {
+resource webApplication2 'Microsoft.Web/sites@2021-01-15' = {
   name: webAppName2
   location: location
   properties: {
