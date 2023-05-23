@@ -5,8 +5,11 @@
     "appServicePlanName": {
       "value": "webbieweb"
     },
-    "webAppName": {
-      "value": "webbedieweb"
+    "webAppName1": {
+      "value": "webbedieweb1"
+    },
+    "webAppName2":{
+      "value": "webbedieweb2"
     }
   }
 }
